@@ -17,7 +17,7 @@ namespace AutoAssetsResizer
 
         public override string ToString()
         {
-            return Name + "-scale" + Scale;
+            return Name + ".scale-" + Scale;
         }
 
         public ImageAsset(string name, int scale, int width, int height)
